@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-color: rgb(113, 60, 199);
+    overflow: hidden;
+}
+.hodu{
+    background-color: #fff;
+    width: 90%;
+    max-width: 600px;
+    padding: 50px;
+    height: 450px;
+    margin: 50px auto 0;
+    border-radius: 11px;
+    
+}
+
+h4{
+    margin: 50px 0;
+    font-size: 50px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    height: 600px;
+}
+
+#href{
+    background-color: #ffffff;
+    width: 600px;
+    border-radius: 11px;
+    padding: 50px;
+    height: 200px;
+    text-align: center;
+}
+
+progress{
+    transition: ease-in-out 0.5s;
+}
+
+.hodu h1{
+    border-bottom: 1px solid blueviolet;
+    padding-bottom: 20px;
+}
+
+.quiz{
+    font-size: 16px;
+}
+
+#ansbtn{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    border-radius: 10px ;
+    background-color: rgb(232, 215, 248);
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.btntext{
+    margin-left: 20px;
+    font-size: large;
+}
+
+.btn:hover{
+    background-color: rgb(154, 95, 209);
+    cursor: pointer;
+}
+.next{
+    border-radius: 14px ;
+    background-color: rgb(54, 7, 99);
+    width: 80px;
+    color: white;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0 0 500px;
+    text-align: center;
+}
+.next:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
